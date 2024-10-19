@@ -1,0 +1,46 @@
+.list-heading {
+    font-weight: bold;
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.center-img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    background: rgb(2, 30, 166);
+    background: linear-gradient(90deg, rgba(2, 30, 166, 1) 37%, rgba(61, 162, 187, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.container {
+    text-align: justify;
+
+}
+
+.linkText {
+    text-decoration: none;
+}
+
+.privacy-header {
+    background-image: url('background-image.jpg');
+    background-color: #f0f0f0;
+    /* fallback color if image fails to load */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    /* adjust padding as needed */
+}
