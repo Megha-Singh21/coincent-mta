@@ -9,3 +9,6 @@
 .vertical-tab .nav-pills .nav-link.active, .nav-pills .nav-link.active>.items-center .text-dark-blue{
     color: rgb(0 194 43 / var(--tw-text-opacity)) !important;
 }
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+}
